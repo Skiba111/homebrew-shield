@@ -1,14 +1,14 @@
 cask "shield-vpn" do
-  version "1.0.41"
+  version "1.0.42"
 
   on_arm do
     url "https://github.com/Skiba111/shield-releases/releases/download/macos-v#{version}/SHIELD.VPN-#{version}-arm64.dmg"
-    sha256 "26d76111071f4a1478d7db1d835df5e31d93527b9fff568f54f2749dfbca950d"
+    sha256 "3a49d6b91d24de1f81843de7f887e761810b91f663bfd946400c05857288ad4e"
   end
 
   on_intel do
     url "https://github.com/Skiba111/shield-releases/releases/download/macos-v#{version}/SHIELD.VPN-#{version}.dmg"
-    sha256 "946d8483f5aeeb6cbde061d65843ff5161d6f3982904398273a65ce7d96ef89a"
+    sha256 "3a97fa1f7d1d3ab555f1a07757a5e8f7ec09ee2bdc64a02dffc2a2cea9429c54"
   end
 
   name "SHIELD VPN"
